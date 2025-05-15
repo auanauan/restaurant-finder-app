@@ -1,18 +1,13 @@
 # 🍽️ Restaurant Finder App
 
-A full-stack web application using:
-- Laravel (API backend)
-- Vue.js (frontend map interface)
+## 📁 โครงสร้างโปรเจกต์
 
-## Features
-- Find restaurants on the map
-- Filter by location or cuisine
-- Add new restaurants via admin panel
+- `frontend/` – Vue 3 + Axios สำหรับค้นหาร้านอาหาร
+- `backend/` – Laravel 10 สำหรับ API ดึงข้อมูลจาก Google Places and Map JS
 
-## Setup Instructions
-1. Clone this repo
-2. Run backend with Laravel
-3. Run frontend with Vue CLI
+## 🚀 วิธีรันโปรเจกต์
 
-## Author
-Thanakrit Mangkang
+### 1. Clone โปรเจกต์
+```bash or powershell
+git clone https://github.com/username/restaurant-finder-app.git
+cd restaurant-finder-app
