@@ -60,7 +60,7 @@ const search = async () => {
 
 const initMap = () => {
   const script = document.createElement('script')
-  const apiKey = ''
+  const apiKey = '' // เพิ่ม google credential api key ก่อนนะครับ
   script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMapScript`
   script.async = true
   document.head.appendChild(script)
